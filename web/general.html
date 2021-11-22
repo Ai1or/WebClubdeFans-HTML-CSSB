@@ -4,32 +4,39 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>General</title>
     <meta name="author" content="Aitor Villanueva Martínez">
     <meta name="keywords" content="WebClubDeFans,Yung Beef, Quien es Yung Beef, Origenes Yung Beef, Datos curiosos Yung Beef">
     <meta name="description" content="Cuenta de club de fans de Yung Beef">
     <link rel="icon" href="../img/Foto6.png" >
+    <link rel="stylesheet" href="/CSS/common.css">
+    <link rel="stylesheet" href="/CSS/general.css">
+    <title>General</title>
 </head>
 <body>
-    <div>
-        <img width="280" height="250" src="../img/EL_PAPASITO.png" alt="Logo de Yung Beef-El-Papasito">
+    <div class="cabeceraPrincipal">
+        <div id="cabecera">
+            <img id="imagenCanva" width="280" height="250" src="/img/EL_PAPASITO.png"  alt="Logo de Yung Beef-El-Papasito">
+        </div>
+        <header>
+            <nav class="menu">
+                <a id="agenda" href="/web/agenda.html"><b>Agenda</b></a>
+                <a id="contacto" href="/web/contacte.html"><b>Contacte</b></a>
+                <a id="foto" href="/web/fotos.html"><b>Fotos</b></a>
+                <a id="general" href="/web/general.html"><b>General</b></a>
+                <a id="video" href="/web/videos.html"><b>Videos</b></a>
+            </nav>
+        </header>
     </div>
-    <header>
-       <nav>
-        <a href="../web/agenda.html"><b>Agenda</b></a>
-        <a href="../web/contacte.html"><b>Contacte</b></a>
-        <a href="../web/fotos.html"><b>Fotos</b></a>
-        <a href="../web/videos.html"><b>Videos</b></a>
-        <a href="../index.html"><b>Índex</b></a>
-       </nav>
-    </header>
-    <main>
+    <main class="main">
+    <div id="QuienEs">
         <h3>Quien es Yung Beef</h3>
         <p>Fernando Gálvez Gómez mas conocido por su nombre artistico Yung Beef, es un cantante y prductor de trap y reggeton español. <br> Adquirió popularidad en la escena del rap español a partir de su aclamado mixtape A.D.R.O.M.I.C.F.M.S.
             <br>Desde aquel momento se unio al grupo PXXR GVNG con el cual no paro de crecer hasta el punto de actuar en numerosos festivales alrededor del mundo, 
             <br>hacer un polémico disco para el sello Sony Miusic, y traspasar las fronteras de España para llegar a sonar en el otro lado del charco, 
             <br>siendo uno de los exponentes mas influyentes en las escenas de Argentina, Chile, México y España. </p>
-        <br>
+        <br> 
+    </div>
+    <div id="origenes">
         <h3>Origenes</h3>
         <p>
         Fernando se crio parte de su vida en Granada,su barrio natal el Albayzín un barrio bastante pobre.
@@ -40,22 +47,24 @@
         <br>A los 16 años ya estaba fuera del instituto y alrededor de un año mas tarde lo cogieron para trabajar en la hosteleria en Marsella y Londres.
         <br>Gracias a estos dos sitios expandió su afán musical por el movimiento underground del hip-hop.
         </p>
-    
+    </div>
+    <div id="datosCuriosos">
         <h3>Datos Curiosos</h3>
-        <ul>
-            <li>Su nombre viene de la canción "Young and Beautiful" de Lana del Rey.</li>
-            <li>Entrando en la veintena creó e integró el colectivo PXXR GVNG en Granada, que fue el primero colectivo trapero en firmar con una discográfica internacional. </li>
-            <li>Ademas de hacer musica hizo su debut como modelo en junio de 2016, siendo imagen de una campaña munidal de Calvin Klein.</li>
-            <li>Debuto en el cine independiente con el corto Mala Ruina del director Carslos Salado en 2018.</li>
-        </ul>
-    </main>
-    <footer>
-        <b>&copy;WebClubDeFans Aitor Villanueva Martínez </b>
         <br>
-        <a target="_blank" href="https://www.instagram.com/ricosuaveyatusabe/">Instagram-(Yung Beef)</a> <br>
-        <a target="_blank" href="https://www.instagram.com/lavendicionrecs/">Instagram-(La Vendicion Records)</a> <br>
-        <a target="_blank" href="https://twitter.com/LaVendicionRecs/with_replies">Twitter-(La Vendicion Records)</a><br>
-        <a target="_blank" href="https://twitter.com/secoweedcodein">Twitter-(Yung Beef)</a>
-   </footer>
+            <p>- Su nombre viene de la canción "Young and Beautiful" de Lana del Rey.</p> <br>
+            <p>- Entrando en la veintena creó e integró el colectivo PXXR GVNG en Granada, que fue el primero colectivo trapero en firmar con una discográfica internacional. </p> <br>
+            <p>- Ademas de hacer musica hizo su debut como modelo en junio de 2016, siendo imagen de una campaña munidal de Calvin Klein.</p> <br>
+            <p>- Debuto en el cine independiente con el corto Mala Ruina del director Carslos Salado en 2018.</p> <br>
+    </div>     
+    </main>
+    <footer id="redes_y_copy">
+        <div id="instagram_artista"><a target="_blank" href="https://www.instagram.com/ricosuaveyatusabe/"><img height="50" width="50" src="/img/insta.png" alt="Insta"></a></div>
+        <div id="instagram_grupo"><a target="_blank" href="https://www.instagram.com/lavendicionrecs/"><img height="50" width="50" src="/img/Vendicion-Records.png" alt="Instagram la Vendicion Records"></a></div>
+        <div id="twitter_artista"><a target="_blank" href="https://twitter.com/secoweedcodein"><img height="50" width="50" src="/img/Twitter.png" alt="Twitter de Yung Beef"></a></div>
+        <div id="twitter_grupo"> <a target="_blank" href="https://twitter.com/LaVendicionRecs/with_replies"><img height="50" width="50" src="/img/Vendicion-Records2.png" alt="Twitter la vendicion records"></a></div>
+        <br>
+        <div id="copy"><b>&copy;WebClubDeFans Aitor Villanueva Martínez </b></div>
+        
+    </footer>
 </body>
 </html>

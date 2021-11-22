@@ -1,0 +1,25 @@
+.main{ margin: 150px 100px 50px 100px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+h3{ text-align: center; }
+
+#QuienEs,h3{ padding-bottom: 10px; }
+
+#origenes,h3{ padding-bottom: 10px; padding-top: 15px; }
+
+#datosCuriosos,h3{ padding-bottom: 10px; padding-top: 15px; }
+
+#QuienEs,p{ text-align:center; }
+
+#origenes,p{  text-align:center; }
+
+#datosCuriosos,p{  text-align:center; }
+
+#instagram_artista{  margin-left: 520px; }
+    
+#instagram_grupo{ margin-left: 600px; margin-top: -50px; }
+    
+#twitter_artista{ margin-left: 680px; margin-top: -52px;}
+    
+#twitter_grupo{ margin-left:760px; margin-top: -53px;}
+    
+#copy{ text-align: center; }

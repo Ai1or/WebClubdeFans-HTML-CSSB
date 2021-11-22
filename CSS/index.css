@@ -1,0 +1,19 @@
+.fotoMasTexto{ padding-top: 10px; padding-bottom: 10px; margin-left: 150px; margin-right: 150px; margin-top: 70px; margin-bottom:10px; }
+
+#imagenCentral{ border-radius: 30%; height: 400px; width: 400px; position: relative; top: 80px; }
+
+#texto_debajo_de_la_imagen{ text-decoration: none; position: absolute; font-size: 18px; font-family: 'Courier New', Courier, monospace; left: 600px; bottom: 80px; }
+
+#redes_y_copy{ margin-top: 120px; }
+
+#instagram_artista{  margin-left: 380px; }
+    
+#instagram_grupo{ margin-left: 460px; margin-top: -51px; }
+
+#twitter_artista{ margin-top: -52px ; margin-left: 540px; }
+
+#twitter_grupo{ margin-left: 620px; margin-top: -53px; }
+
+#copy{ text-align: center; }
+
+

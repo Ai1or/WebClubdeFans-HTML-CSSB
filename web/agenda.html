@@ -9,24 +9,26 @@
     <link rel="icon" href="../img/Foto6.png" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agenda</title>
+    <link rel="stylesheet" href="/CSS/common.css">
+    <link rel="stylesheet" href="/CSS/agenda.css">
 </head>
-<body>
-    <div>
-        <img width="280" height="250" src="../img/EL_PAPASITO.png" alt="Logo de Yung Beef-El-Papasito">
+<body >
+    <div id="cabecera">
+        <img id="imagenCanva" width="280" height="250" src="../img/EL_PAPASITO.png" alt="Logo de Yung Beef-El-Papasito">
     </div>
     <header>
-        <nav>
-            <a href="../index.html"><b>Índex</b></a>
-            <a href="../web/contacte.html"><b>Contacte</b></a>
-            <a href="../web/fotos.html"><b>Fotos</b></a>
-            <a href="../web/general.html"><b>General</b></a>
-            <a href="../web/videos.html"><b>Videos</b></a>
+        <nav class="menu">
+            <a id="agenda" href="/web/agenda.html"><b>Agenda</b></a>
+            <a id="contacto" href="/web/contacte.html"><b>Contacte</b></a>
+            <a id="foto" href="/web/fotos.html"><b>Fotos</b></a>
+            <a id="general" href="/web/general.html"><b>General</b></a>
+            <a id="video" href="/web/videos.html"><b>Videos</b></a>
         </nav>
     </header>
-    <main>
-        <div>
+    <main id="tablaConciertos_y_texto" >
+        <div id="tablaConciertos">
             <h3>Proximos Conciertos</h3>
-            <table border="2">
+            <table  id="table">
                 <tr>
                     <td>Comunidad</td>
                     <td>Organicacion</td>
@@ -71,13 +73,14 @@
         </p> 
       
     </main>
-    <footer>
-        <b>&copy;WebClubDeFans Aitor Villanueva Martínez </b>
+    <footer id="redes_y_copy">
+        <div id="instagram_artista"><a target="_blank" href="https://www.instagram.com/ricosuaveyatusabe/"><img height="50" width="50" src="/img/insta.png" alt="Insta"></a></div>
+        <div id="instagram_grupo"><a target="_blank" href="https://www.instagram.com/lavendicionrecs/"><img height="50" width="50" src="/img/Vendicion-Records.png" alt="Instagram la Vendicion Records"></a></div>
+        <div id="twitter_artista"><a target="_blank" href="https://twitter.com/secoweedcodein"><img height="50" width="50" src="/img/Twitter.png" alt="Twitter de Yung Beef"></a></div>
+        <div id="twitter_grupo"> <a target="_blank" href="https://twitter.com/LaVendicionRecs/with_replies"><img height="50" width="50" src="/img/Vendicion-Records2.png" alt="Twitter la vendicion records"></a></div>
         <br>
-        <a target="_blank" href="https://www.instagram.com/ricosuaveyatusabe/">Instagram-(Yung Beef)</a> <br>
-        <a target="_blank" href="https://www.instagram.com/lavendicionrecs/">Instagram-(La Vendicion Records)</a> <br>
-        <a target="_blank" href="https://twitter.com/LaVendicionRecs/with_replies">Twitter-(La Vendicion Records)</a><br>
-        <a target="_blank" href="https://twitter.com/secoweedcodein">Twitter-(Yung Beef)</a>
-   </footer>
+        <div id="copy"><b>&copy;WebClubDeFans Aitor Villanueva Martínez </b></div>
+        
+    </footer>
 </body>
 </html>
